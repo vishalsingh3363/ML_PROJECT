@@ -12,3 +12,28 @@ In this project, the system in focus is the Student Performance in exams. We bui
 5. Machine learning algorithms
 6. Docker
 
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/vishalsingh3363/ML_PROJECT.git
+```
+
+### Step 2- Create a conda environment after opening the repository
+
+```bash
+conda create -n venv python=3.8 -y
+```
+
+```bash
+conda activate sensor
+```
+
+### Step 3 - Install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+### Step 4 - Run the application server
+```bash
+python src/components/data_ingestion.py

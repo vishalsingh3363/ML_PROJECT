@@ -25,7 +25,7 @@ conda create -n venv python=3.8 -y
 ```
 
 ```bash
-conda activate sensor
+conda activate venv
 ```
 
 ### Step 3 - Install the requirements
